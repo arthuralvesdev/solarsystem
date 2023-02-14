@@ -1,11 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
 h1 {
     font-family: Helvetica, sans-serif;
     color: white;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
+    font-size: 5rem;
+    
 }
 
 body {
-    background-image: url('https://images.pexels.com/photos/1252890/pexels-photo-1252890.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');
+    background-image: url('https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem ;
+
+}
+
